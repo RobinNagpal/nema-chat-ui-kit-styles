@@ -57,7 +57,7 @@ $default-bg-color: $color-white !default;
 // Element colors
 //
 
-$default-border-color: rgba-to-rgb(rgba(scale-color($color-primary-dark, $saturation: -55%), 0.4), $default-bg-color) !default;
+$default-border-color: var(--border-color);
 
 // State colors
 //
