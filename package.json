@@ -1,6 +1,6 @@
 {
   "name": "nema-chat-ui-kit-styles",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
   "license": "MIT",
   "homepage": "https://chatscope.io/",
@@ -27,7 +27,6 @@
     "type": "git",
     "url": "https://github.com/RobinNagpal/nema-chat-ui-kit-styles.git"
   },
-
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -52,7 +51,6 @@
     "watch": "chokidar 'themes/**/*.scss' -c 'npm-run-all -s build:sass build:autoprefixer'",
     "test": ""
   },
-
   "files": [
     "dist",
     "scripts",
