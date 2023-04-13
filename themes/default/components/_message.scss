@@ -102,6 +102,7 @@ $_message-avatar-offset: $message-avatar-width + $message-avatar-horizontal-marg
     background-color: $message-content-bg-color;
     margin-top: $message-content-margin-top;
     padding: 0.6em 0.9em;
+    border: $button-border;
     border-radius: $message-content-border-radius;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
@@ -110,6 +111,10 @@ $_message-avatar-offset: $message-avatar-width + $message-avatar-horizontal-marg
     font-weight: $message-content-font-weight;
     font-size: $message-content-font-size;
     font-variant: $message-content-font-variant;
+  }
+
+  &__content a {
+    color: $default-link-color;
   }
 
   // Modifier: Incoming message
